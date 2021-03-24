@@ -5,7 +5,7 @@ import json
 from lxml import etree
 
 date = ""    # 2021-03-16
-db = MySQLdb.connect("47.110.47.105", "root", "q8!@dfFGR$CsXIdAf!@G^dx.", "sa", charset='utf8')
+db = MySQLdb.connect("127.0.0.1", "root", "******", "sa", charset='utf8')
 cursor = db.cursor()
 
 caiji_date = '2020-12-31'    # 采集日期
